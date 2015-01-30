@@ -1,7 +1,7 @@
 command: "/usr/local/bin/musicInfo -f \"%t|%a|%A\""
 
 # the refresh frequency in milliseconds
-refreshFrequency: 30
+refreshFrequency: 15000
 
 # render gets called after the shell command has executed. The command's output
 # is passed in as a string. Whatever it returns will get rendered as HTML.
